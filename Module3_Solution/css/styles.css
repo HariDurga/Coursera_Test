@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .navbar-brand a:hover{
 	text-decoration: none;
 }
