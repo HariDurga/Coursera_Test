@@ -1,13 +1,10 @@
-*{
-  box-sizing: border-box;
-}
+
 .navbar-brand a:hover{
 	text-decoration: none;
 }
  #header-nav {
   background-color: purple;
   border-radius: 0px;
-  height: 70px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #FFF8DC;
