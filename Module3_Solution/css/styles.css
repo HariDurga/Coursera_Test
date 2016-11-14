@@ -20,7 +20,7 @@ body{
 	padding:10px;
 	border:1px solid black;
 	margin-bottom: 20px;
-	height: 1000px;
+	height: 700px;
 	overflow:auto;
 	background: purple;
 	color:#FFF8DC;
@@ -45,35 +45,57 @@ h1{
 	font-weight: bold;
   text-shadow: 1px 1px 1px #222;
 }
+.navbar-brand {
+    height: 80px;
+  }
 .navbar-brand h1 {
   color: #FFF8DC;
-  font-size: 1.8em;
+  font-size: 2em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-	.navbar-brand {
-    padding-top: 10px;
-    height: 80px;
+section{
+  border-left:30px solid #FFF8DC;
+  border-right: 30px solid #FFF8DC;
+}
+p>a{
+  font-style: italic;
+  color:yellow;
+}
+
+#main-content{
+  padding:10px;
+}
+@media(min-width: 1200px){
+  .col-lg-4{
+    border: 30px solid #FFF8DC;
   }
+}
+@media (min-width:992px) and (max-width: 1199px){
+  .col-md-4{
+border:30px solid #FFF8DC;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
 	.navbar-brand h1 { 
     padding: 10px;
     font-size: 3vw;
   }
+  .col-sm-6, .col-sm-12{
+    border:30px solid #FFF8DC;
+  }
 }
 @media (max-width: 767px) {
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
+  .col-xs-12{
+    border:30px solid #FFF8DC;
   }
   .navbar-brand h1 { 
-    padding-top: 10px;
+    padding: 10px;
     font-size: 5vw;
-    color:#FFF8DC;
   }
   #collapsable-nav a { 
     font-size: 1.2em;
